@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Recovery Fund 4AL: Gruppo G1</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:2.0, minimum-scale:0.5">
 <style>
 body {
   background-image: url('https://www.asfe-vr.it/wp-content/uploads/2020/11/digitalization--1320x677.jpg');
@@ -16,9 +16,54 @@ a:hover {
   text-decoration: underline
 }
 p {width: 50%}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 </style>
 </head>
 <body align="left" style="color:White;" link="Aqua" vlink="Aqua" alink="Aqua">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 <h2><b>Missione I Recovery Fund</b></h2>
 <h1><b>"Digitalizzazione, innovazione e competitività del sistema"</b></h1>
 <h2><b>4°A l.s.a. GRUPPO G1</b></h2>
