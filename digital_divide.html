@@ -2,63 +2,117 @@
 <html>
 <head>
 <title>Interventi per una digitalizzazione inclusiva contro il digital divide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:2.0, minimum-scale:0.5">
 <style>
 body {font-family: Arial}
 a:hover {
   color: DarkCyan;
   text-decoration: underline
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 </style>
 </head>
-<body style="background-color:LightCyan;">
-<h1 align="center">IL DIGITAL DIVIDE</h1>
-<h2>Cos’è il Digital Divide?</h2>
-<p>Con l’espressione “Digital Divide” si definisce il divario esistente tra chi ha possibilità concreta di accedere a computer, internet e più in generale alle tecnologie dell’informazione, e chi invece ne è completamente escluso. Si tratta di un problema che riguarda sia i paesi in via di sviluppo, per i quali si ritiene che la possibilità di accedere ad internet possa, se non colmare, almeno ridurre significativamente la distanza che li separa dai paesi sviluppati, sia questi ultimi, laddove l’accesso o meno alle nuove tecnologie costituisce una nuova forma di disuguaglianza sociale e richiede interventi precisi e mirati da parte dei governi e delle istituzioni pubbliche poiché è impensabile affidare una sua risoluzione al mercato economico, alla diffusione dei mezzi tecnologici e ai cosiddetti nativi digitali.</p>
-<h2>Chi furono i primi a parlarne?</h2>
-<p>Storicamente, i primi che parlarono di Digital Divide furono il presidente americano Bill Clinton e il suo vice: Al Gore, quando all'inizio degli anni novanta, intrapresero una politica di forte sviluppo e potenziamento dell'infrastruttura di internet negli Stati Uniti. Il termine entrò a far parte dell’uso comune quando lo utilizzarono durante un discorso tenuto nel 1996 a Knoxville, in Tennessee. In quell'occasione, l'amministrazione statunitense sottolineò la disparità di accesso ai servizi telematici tra la popolazione del paese. Il concetto di "divario digitale" era riferito alla difficoltà di accesso a internet in determinate zone del paese, in cui le difficoltà riguardavano anche l'aspetto dei costi. In quegli anni internet esplose come fenomeno di massa e diventò sempre di più un mezzo di lavoro e di business: non essere connessi alla rete, o non avere gli strumenti cognitivi per farlo, significava quindi essere relegati ai margini della società. Nacquero così vari progetti per colmare il divario digitale americano nell'amministrazione Clinton. Con il passare del tempo, la "rivoluzione internet" iniziò a interessare tutto il mondo industrializzato e queste tematiche cominciarono ad essere sentite anche in altri paesi fino a raggiungere anche il sud del pianeta. Per inquadrare correttamente il Digital Divide nei paesi in via di sviluppo dovremmo inserirlo come l'ultimo dei tanti "divide" che riguardano determinate aree: povertà, sfruttamento delle risorse ad opera di multinazionali, mancanza di energia elettrica, problemi politici, e mancanza di istruzione.</p>
-<h2>Da cosa è causato?</h2>
-<p>La discriminazione presente nel mondo della tecnologia è derivata sostanzialmente da tre fattori:
+<body style="background-color:Black;color:White">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<h1><b>Il <i>digital divide</i></b></h1>
+<br>
+<h2><b>Cos’è il <i>digital divide</i>?</b></h2>
+<p>Con l’espressione <b>“Digital Divide”</b> si definisce il <b>divario esistente tra chi ha possibilità concreta di accedere a computer, internet e più in generale alle tecnologie dell’informazione, e chi invece ne è completamente escluso</b>. Si tratta di <b>un problema che riguarda sia i Paesi in via di sviluppo</b>, per i quali si ritiene che la possibilità di accedere ad internet possa, se non colmare, almeno ridurre significativamente la distanza che li separa dai <b>Paesi sviluppati</b>, sia questi ultimi, laddove <b>l’accesso o meno alle nuove tecnologie costituisce una nuova forma di disuguaglianza sociale e richiede interventi precisi e mirati da parte dei governi</b> e delle istituzioni pubbliche poiché è <b>impensabile affidare una sua risoluzione al mercato economico, alla diffusione dei mezzi tecnologici e ai cosiddetti nativi digitali.</b></p>
+<br>
+<h2><b>Chi furono i primi a parlarne?</b></h2>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Bill_Clinton.jpg" alt="Bill Clinton" style="width:450px;height:275px" hspace="30" align="right">Storicamente, <b>i primi che parlarono di <i>digital divide</i> furono il presidente americano Bill Clinton e il suo vice Al Gore, quando all'inizio degli anni Novanta, intrapresero una politica di forte sviluppo e potenziamento dell'infrastruttura di internet negli Stati Uniti</b>. Il termine entrò a far parte dell’uso comune quando lo utilizzarono durante un discorso tenuto nel 1996 a Knoxville, in Tennessee. In quell'occasione, l'amministrazione statunitense sottolineò la <b>disparità di accesso ai servizi telematici tra la popolazione del Paese</b>. Il concetto di "divario digitale" era riferito alla difficoltà di accesso a internet in determinate zone del Paese, in cui le difficoltà riguardavano anche l'aspetto dei costi. In quegli anni <b>Internet</b> esplose come fenomeno di massa e diventò <b>sempre di più un mezzo di lavoro e di business: non essere connessi alla rete, o non avere gli strumenti cognitivi per farlo, significava quindi essere relegati ai margini della società.</b> Nacquero così vari progetti per colmare il divario digitale americano nell'amministrazione Clinton. Con il passare del tempo, <b>la "rivoluzione Internet" iniziò a interessare tutto il mondo industrializzato e queste tematiche cominciarono ad essere sentite anche in altri Paesi</b> fino a raggiungere anche il Sud del pianeta. Per inquadrare correttamente <b>il <I>digital divide</i> nei Paesi in via di sviluppo</b> dovremmo inserirlo come l'ultimo dei tanti "divide" che riguardano determinate aree: <b>povertà, sfruttamento delle risorse ad opera di multinazionali, mancanza di energia elettrica, problemi politici, e mancanza di istruzione.</b></p>
+<br>
+<h2><b>Da cosa è causato?</b></h2>
+<p>La discriminazione presente nel mondo della tecnologia è derivata sostanzialmente da <b>tre fattori</b>:
 <ul>
-<li>Privilegi economici e sociali: è principalmente causato dalla mancanza di denaro. Secondo uno studio della Web Foundation, che ha usato dati Onu, la crescita degli accessi alla rete è drasticamente rallentata: il tasso di crescita è sceso, in 10 anni, dal 19% al 6%.I costi per dotarsi di infrastrutture, ma anche, di un solo PC, rendono lo sviluppo digitale un appannaggio delle comunità più ricche, e all’interno di esse spesso solo delle classi più abbienti. Attualmente 3,8 miliardi di persone non hanno accesso al web;</li>
-<li>La mancanza di infrastrutture adeguate: per quanto riguarda i paesi occidentali, il problema è derivato essenzialmente dalla mancanza di infrastrutture adeguate che penalizzano maggiormente le aree meno popolose e più difficili da raggiungere. In questo caso però, si parla di Digital Divide dovuto alla velocità di trasmissione dati, più che ad una reale mancanza di connessione. Il 47% della popolazione offline vive in aree rurali e all’interno dei 3,8 miliardi di persone offline nel mondo, sono particolarmente penalizzate le donne, i paesi africani e le comunità rurali;</li>
-<li>L’analfabetismo informatico: un ulteriore problema da non sottovalutare è l’analfabetismo informatico, ovvero la totale o parziale incapacità di utilizzare strumenti informatici quali un pc o un cellulare. In questo caso il divario digitale è culturale e dipende sopratutto da fattori sociali, anagrafici e d’istruzione.</li>
+<li><b>Privilegi economici e sociali</b>: è principalmente causato dalla mancanza di denaro. Secondo uno studio della Web Foundation, che ha usato dati Onu, la crescita degli accessi alla rete è drasticamente rallentata: il tasso di crescita è sceso, in 10 anni, dal 19% al 6%.I costi per dotarsi di infrastrutture, ma anche, di un solo PC, rendono lo sviluppo digitale un appannaggio delle comunità più ricche, e all’interno di esse spesso solo delle classi più abbienti. Attualmente 3,8 miliardi di persone non hanno accesso al web;</li>
+<li><b>La mancanza di infrastrutture adeguate</b>: per quanto riguarda i paesi occidentali, il problema è derivato essenzialmente dalla mancanza di infrastrutture adeguate che penalizzano maggiormente le aree meno popolose e più difficili da raggiungere. In questo caso però, si parla di Digital Divide dovuto alla velocità di trasmissione dati, più che ad una reale mancanza di connessione. Il 47% della popolazione offline vive in aree rurali e all’interno dei 3,8 miliardi di persone offline nel mondo, sono particolarmente penalizzate le donne, i paesi africani e le comunità rurali;</li>
+<li><b>L’analfabetismo informatico</b>: un ulteriore problema da non sottovalutare è l’analfabetismo informatico, ovvero la totale o parziale incapacità di utilizzare strumenti informatici quali un pc o un cellulare. In questo caso il divario digitale è culturale e dipende sopratutto da fattori sociali, anagrafici e d’istruzione.</li>
 </ul></p>
-<h2>Tipologie di divario causate dal mondo digitale</h2>
+<br>
+<h2><img src="https://www.insidemarketing.it/wp-content/uploads/2019/04/global-digital-divide-utenti-connessi-a-livello-globale-620x318.jpg" alt="Mappa mondo accesso ad Internet" style="width:600px;height:250px" hspace="30" align="left"><b>Tipologie di divario causate dal mondo digitale</b></h2>
 <ul>
-<li>Il divario digitale globale: riguarda le differenze esistenti tra due o più Paesi differentemente sviluppati;
-<li>Il divario digitale sociale: si riferisce invece alle disuguaglianze esistenti all’interno di un singolo Paese. Questa disparità può dipendere da molti fattori, come la posizione geografica o la condizione economica delle singole famiglie;</li>
-<li>Il divario democratico: mette in evidenza le condizioni di partecipazione alla vita sociale e politica, in base all’utilizzo e al non utilizzo delle tecnologie.</li>
+<li><b>Il divario digitale globale</b>: riguarda le <b>differenze esistenti tra due o più Paesi</b> differentemente sviluppati;
+<li><b>Il divario digitale sociale</b>: si riferisce invece alle <b>disuguaglianze esistenti all’interno di un singolo Paese</b>. Questa disparità può dipendere da molti fattori, come la posizione geografica o la condizione economica delle singole famiglie;</li>
+<li><b>Il divario democratico</b>: mette in evidenza le <b>condizioni di partecipazione alla vita sociale e politica, in base all’utilizzo e al non utilizzo delle tecnologie.</b></li>
 </ul>
-<p>Una prima separazione tra queste tre tipologie di divario sta nel fatto che le prime due sono maggiormente concentrate sul tema dell’accesso, mentre la terza, si allarga sino ad abbracciare il tema delle capacità d’uso.</p>
-<img src="https://www.insidemarketing.it/wp-content/uploads/2019/04/global-digital-divide-utenti-connessi-a-livello-globale-620x318.jpg" alt="Mappa mondo accesso ad Internet" style="width:600px;height:300px;">
-<h2>La situazione in Italia</h2>
-<p>In Italia il Digital Divide è causato prevaletemene dalla mancanza di infrastrutture adeguate e in particolare la mancanza di collegamento ad Internet veloce.
- Si stima che circa il 12% della popolazione non abbia accesso alla banda larga. Le compagnie telefoniche non riescono ancora a raggiungere diverse zone del paese per garantire la velocità necessaria per la connessione. In generale in Europa il Digital Divide, secondo la Commissione europea, è la mancata copertura di banda larga fissa ad almeno 2 Megabit (Adsl, cavo coassiale – che in Italia manca – o fixed wireless). In Italia questo dato riguarda una popolazione senza copertura Adsl che si stima essere circa il  5,6 per cento, anche se non ci sono mappe ufficiali. Ad altri livelli, ovvero per la banda ultra-larga, le stime sono anche peggiori, si parla infatti del 20/40 % della popolazione e in futuro si parlerà anche di Digital Divide di terzo livello, mancata copertura con fibra ottica nelle case, che in Italia riguarda meno del 20 per cento della popolazione con stime che oscillano.</p>
-<p>Le categorie che risentono in modo particolare del Digital Divide sono:
+<p>Una prima separazione tra queste tre tipologie di divario sta nel fatto che <b>le prime due sono maggiormente concentrate sul tema dell’accesso, mentre la terza, si allarga sino ad abbracciare il tema delle capacità d’uso.</b></p>
+<br>
+<h2><b>La situazione in Italia</b></h2>
+<p><img src="https://cdn.gelestatic.it/businessinsider/it/2021/03/01-famiglie-senza-internet.png" alt="la situazione in Italia" style="width:450px;height:325px" hspace="30" align="right">In Italia il <i>digital divide</i> è causato prevaletemene dalla <b>mancanza di infrastrutture adeguate e in particolare la mancanza di collegamento ad Internet veloce.</b>
+ Si stima che circa il <b>12% della popolazione non abbia accesso alla banda larga</b>. Le compagnie telefoniche non riescono ancora a raggiungere diverse zone del Paese per garantire la velocità necessaria per la connessione. In generale <b>in Europa il <i>digital divide</i>, secondo la Commissione europea, è la mancata copertura di banda larga fissa</b> ad almeno 2 Megabit (Adsl, cavo coassiale – che in Italia manca – o fixed wireless). In Italia questo dato riguarda una <b>popolazione senza copertura Adsl</b> che si stima essere circa il <b>5,6%</b>, anche se non ci sono mappe ufficiali. Ad altri livelli, ovvero per la banda ultra-larga, le stime sono anche peggiori, si parla infatti del 20/40 % della popolazione e in futuro si parlerà anche di <b><i>digital divide</i> di terzo livello</b>, mancata copertura con fibra ottica nelle case, che in Italia <b>riguarda meno del 20% della popolazione</b> con stime che oscillano.</p>
+<p>Le <b>categorie che risentono in modo particolare del <i>digital divide</i></b> sono:
 <ul>
-<li>Gli anziani: l’esclusione è causata da un gap generazionale;</li>
-<li>Gli immigrati: l’esclusione è causata da un gap linguistico-culturale;</li>
-<li>I detenuti, i disabili e chi ha un basso livello di istruzione, che non sono in grado di usare in modo consono i dispositivi informatici;</li>
-<li>Le donne inoccupate: l’esclusione è causata da un gap di genere.</li>
+<li><b>Gli anziani</b>: l’esclusione è causata da un gap generazionale;</li>
+<li><b>Gli immigrati</b>: l’esclusione è causata da un gap linguistico-culturale;</li>
+<li><b>I detenuti, i disabili e chi ha un basso livello di istruzione</b>, che non sono in grado di usare in modo consono i dispositivi informatici;</li>
+<li><b>Le donne inoccupate</b>: l’esclusione è causata da un gap di genere.</li>
 </ul>
-<h2>Istat: un terzo delle famiglie non ha pc o tablet in casa, Sud penalizzato</h2>
-<p>Mentre la scuola affida alla Rete il compito più arduo, quello di portare avanti i programmi fermi dal blocco dei primi di marzo per l'emergenza sanitaria legata al Covid-19, scopriamo che un terzo delle famiglie non ha computer o tablet in casa. Questo significa che migliaia di studenti non hanno la possibilità di collegarsi a internet pe le lezioni a distanza. A restare indietro è ancora una volta il Sud, dove la maggior parte delle famiglie viene penalizzata: 4 su 10 non hanno il pc. E poi, oltre la metà dei ragazzi condivide con la famiglia un pc o un tablet. Solo 3 ragazzi su 10 hanno competenze digitali elevate e oltre 4 minori su 10 vivono in condizioni di sovraffollamento abitativo. Lo rivela un'indagine dell'Istat dedicata agli "Spazi in casa e disponibilità di computer per bambini e ragazzi". L'emergenza legata alla diffusione del Covid-19 ha messo in evidenza la necessità di avere a casa spazi sufficienti e una strumentazione informatica adeguata per consentire agli studenti la possibilità di seguire le lezioni a distanza, a chi lavora di potere continuare a farlo anche da casa e a chi lo vuole di relazionarsi con gli altri, guardare film, trovare occasioni di svago per il tempo libero. In dettaglio, spiega l'Istat, negli anni 2018-2019, il 33,8% delle famiglie non ha un computer o un tablet in casa, il 47,2% ne ha uno e il 18,6% ne ha due o più. La percentuale di chi non ne possiede sale al 70,6% tra le famiglie di soli anziani (65 anni e più), ma scende al 14,3% tra le famiglie con almeno un minorenne. L'impatto del livello di istruzione è molto forte: nelle famiglie mediamente più istruite (in cui almeno un componente è laureato) la quota di quanti non hanno nemmeno un computer o un tablet si riduce al 7,7%. Nel 22,7% delle famiglie sono meno della metà i componenti che hanno a propria disposizione un pc da utilizzare. Solo per il 22,2% delle famiglie è disponibile un computer per ciascun componente.</p>
-<h3>Il 57% condivide il pc in famiglia</h3>
-<p>Ancora, negli anni 2018-2019, il 12,3% dei ragazzi tra 6 e 17 anni (850 mila) non ha un computer o un tablet a casa e la quota raggiunge quasi un quinto nel Mezzogiorno (circa 470 mila). Il 57% lo deve condividere con la famiglia e in questi casi meno della metà dei familiari dispone di un pc da utilizzare. Sebbene la maggior parte dei minori in età scolastica (6-17 anni) viva in famiglie in cui è presente l'accesso a internet (96,0%), non sempre accedere alla rete garantisce la possibilità di svolgere attività come ad esempio la didattica a distanza se non si associa ad un numero di pc e tablet sufficienti rispetto al numero dei componenti della famiglia. Soltanto il 6,1% dei ragazzi tra 6 e 17 anni vive in famiglie dove è disponibile almeno un computer per componente. Solo 3 ragazzi su 10 hanno competenze digitali elevate. Nel 2019, il 92,2% dei ragazzi di 14-17 anni ha usato internet nei 3 mesi precedenti l'intervista,  tuttavia meno di uno su tre presenta alte competenze digitali (il 30,2%, pari a circa 700 mila ragazzi), il 3% non ha alcuna competenza digitale mentre circa i due terzi presentano competenze digitali basse o di base.</p>
-<h3>Corsa al digitale in tempo di pandemia</h3>
-<p>Se lo stato di emergenza rischia di aumentare il divario tecnologico fra le imprese, è altrettanto vero che le organizzazioni più pronte a gestire il cambiamento investendo in innovazione possono aumentare i propri ricavi con una velocità fino a cinque volte superiore rispetto alle aziende ritardatarie. Lo afferma il rapporto Technology Vision 2021 realizzato da Accenture il quale afferma che la tecnologia è stata un'ancora di salvezza per la continuità operativa di moltissime imprese, soprattutto durante il primo lockdown, e ha favorito la nascita di nuovi modi di lavorare, interagire e di fare business, modificando molto probabilmente le aspettative e i comportamenti dei consumatori. Le piccole e le grandi aziende hanno inaugurato una nuova era di rapida trasformazione e il sistema del  Paese ha iniziato di investire in competenze che garantiscano una crescita sostenibile e strategica. Ed è su questo piano che la tecnologia gioca un ruolo determinante, ma va applicata non solo in maniera combinata, bensì con visione e intelligenza, per potersi differenziare e produrre maggior valore. Il 92% dei circa 6.200 manager oggetto di indagine ha confermato in effetti come la propria azienda stia innovando con urgenza, con l'intenzione di agire entro la fine del 2021, e come una percentuale pressoché identica (il 91%) di dirigenti concordi sulla necessità di definire con chiarezza fin da ora quale sarà il mercato da conquistare di domani.</p>
-<img src="https://www.insidemarketing.it/wp-content/uploads/2020/04/coronavirus-e-digital-divide-analisi-620x348.jpg" alt="Digital divide italiano" style="width:400px;height:300px;">
-<h2>Effetti del Digital Divide</h2>
-<p>Il Digital Divide racchiude in sé complesse problematiche che coinvolgono tutti gli aspetti della vita di una comunità: economici, culturali, sociali. I principali effetti del Digital Divide sono legati all’esclusione sociale e al mancato accesso ai servizi pubblici. In particolare:
+<br>
+<h2><img src="https://www.insidemarketing.it/wp-content/uploads/2020/04/coronavirus-e-digital-divide-analisi-620x348.jpg" alt="Digital divide italiano" style="width:400px;height:350px" hspace="30" align="left"><b>Istat: un terzo delle famiglie non ha pc o tablet in casa, Sud penalizzato</b></h2>
+<p>Mentre la scuola affida alla Rete il compito più arduo, quello di portare avanti i programmi fermi dal blocco dei primi di marzo per l'emergenza sanitaria legata al Covid-19, scopriamo che <b>un terzo delle famiglie non ha computer o tablet in casa</b>. Questo significa che migliaia di studenti non hanno la possibilità di collegarsi a internet pe le lezioni a distanza. <b>A restare indietro è ancora una volta il Sud, dove la maggior parte delle famiglie viene penalizzata</b>: 4 su 10 non hanno il pc. E poi, <b>oltre la metà dei ragazzi condivide con la famiglia un pc o un tablet</b>. Solo 3 ragazzi su 10 hanno competenze digitali elevate e oltre 4 minori su 10 vivono in condizioni di sovraffollamento abitativo. Lo rivela un'indagine dell'Istat dedicata agli "Spazi in casa e disponibilità di computer per bambini e ragazzi". L'emergenza legata alla diffusione del Covid-19 ha messo <b>in evidenza la necessità di avere a casa spazi sufficienti e una strumentazione informatica adeguata per consentire agli studenti la possibilità di seguire le lezioni a distanza, a chi lavora di potere continuare a farlo anche da casa e a chi lo vuole di relazionarsi con gli altri, guardare film, trovare occasioni di svago per il tempo libero</b>. In dettaglio, spiega l'Istat, negli anni 2018-2019, il 33,8% delle famiglie non ha un computer o un tablet in casa, il 47,2% ne ha uno e il 18,6% ne ha due o più. La percentuale di chi non ne possiede sale al 70,6% tra le famiglie di soli anziani (65 anni e più), ma scende al 14,3% tra le famiglie con almeno un minorenne. L'impatto del livello di istruzione è molto forte: nelle famiglie mediamente più istruite (in cui almeno un componente è laureato) la quota di quanti non hanno nemmeno un computer o un tablet si riduce al 7,7%. Nel 22,7% delle famiglie sono meno della metà i componenti che hanno a propria disposizione un pc da utilizzare. Solo per il 22,2% delle famiglie è disponibile un computer per ciascun componente.</p>
+<p>Ancora, negli anni 2018-2019, <b>il 12,3% dei ragazzi tra 6 e 17 anni (850 mila) non ha un computer o un tablet a casa e la quota raggiunge quasi un quinto nel Mezzogiorno (circa 470 mila)</b>. Il 57% lo deve condividere con la famiglia e in questi casi meno della metà dei familiari dispone di un pc da utilizzare. Sebbene la maggior parte dei minori in età scolastica (6-17 anni) viva in famiglie in cui è presente l'accesso a internet (96,0%), non sempre accedere alla rete garantisce la possibilità di svolgere attività come ad esempio la didattica a distanza se non si associa ad un numero di pc e tablet sufficienti rispetto al numero dei componenti della famiglia. Soltanto il 6,1% dei ragazzi tra 6 e 17 anni vive in famiglie dove è disponibile almeno un computer per componente. Solo 3 ragazzi su 10 hanno competenze digitali elevate. Nel 2019, il 92,2% dei ragazzi di 14-17 anni ha usato internet nei 3 mesi precedenti l'intervista,  tuttavia meno di uno su tre presenta alte competenze digitali (il 30,2%, pari a circa 700 mila ragazzi), il 3% non ha alcuna competenza digitale mentre circa i due terzi presentano competenze digitali basse o di base.</p>
+<h3><b>Corsa al digitale in tempo di pandemia</b></h3>
+<p>Se lo stato di <b>emergenza rischia di aumentare il divario tecnologico fra le imprese</b>, è altrettanto vero che le organizzazioni più pronte a gestire il cambiamento <b>investendo in innovazione possono aumentare i propri ricavi con una velocità fino a cinque volte superiore</b> rispetto alle aziende ritardatarie. Lo afferma il rapporto Technology Vision 2021 realizzato da Accenture il quale afferma che la <b>tecnologia</b> è stata <b>un'ancora di salvezza per la continuità operativa di moltissime imprese, soprattutto durante il primo lockdown, e ha favorito la nascita di nuovi modi di lavorare, interagire e di fare business</b>, modificando molto probabilmente le aspettative e i comportamenti dei consumatori. <b>Le piccole e le grandi aziende hanno inaugurato una nuova era di rapida trasformazione e il sistema del Paese ha iniziato di investire in competenze che garantiscano una crescita sostenibile e strategica</b>. Ed è su questo piano che la tecnologia gioca un ruolo determinante, ma va applicata non solo in maniera combinata, bensì con visione e intelligenza, per potersi differenziare e produrre maggior valore. Il 92% dei circa 6.200 manager oggetto di indagine ha confermato in effetti come la propria azienda stia innovando con urgenza, con l'intenzione di agire entro la fine del 2021, e come una percentuale pressoché identica (il 91%) di dirigenti concordi sulla necessità di definire con chiarezza fin da ora quale sarà il mercato da conquistare di domani.</p>
+<br>
+<h2><b>Effetti del Digital Divide</b></h2>
+<p>Il <i>digital divide</i> racchiude in sé <b>complesse problematiche che coinvolgono tutti gli aspetti della vita di una comunità: economici, culturali, sociali</b>. I principali <b>effetti del <i>digital divide</i> sono legati all’esclusione sociale e al mancato accesso ai servizi pubblici</b>. In particolare:
 <ul>
-<li>senso di solitudine e isolamento: il 46% degli intervistati offline ha dichiarato che l’accesso a internet permetterebbe di sentirsi più connesso con amici e familiari;</li>
-<li>inaccessibilità alla gestione delle pratiche online: il 34% degli intervistati ha espresso interesse nell’utilizzo di internet per richiedere sussidi pubblici (ad es per alloggio e  beni alimentari ) e solo il 19% della popolazione offline ha richiesto un sussidio pubblico nell’ultimo anno;</li>
-<li>impossibilità a svolgere lavoro da remoto;
+<li><b>senso di solitudine e isolamento</b>: il 46% degli intervistati offline ha dichiarato che l’accesso a internet permetterebbe di sentirsi più connesso con amici e familiari;</li>
+<li><b>inaccessibilità alla gestione delle pratiche online</b>: il 34% degli intervistati ha espresso interesse nell’utilizzo di internet per richiedere sussidi pubblici (ad es per alloggio e  beni alimentari ) e solo il 19% della popolazione offline ha richiesto un sussidio pubblico nell’ultimo anno;</li>
+<li><b>impossibilità a svolgere lavoro da remoto;
 <li>impossibilità di informazione in tempo reale.
-</ul></p>
-<h2>Come ridurre il Digital Divide</h2>
-<p>La vera soluzione al problema digital divide in Italia è rappresentata del Wimax. Ovvero quella tecnologia di trasmissione di rete a banda larga senza fili. Un potente sistema di trasmissione internet che consente l’accesso alla rete oltre i 50 Km di distanza, garantendo una copertura anche nelle zone rurali. E pe realizzare ciò, è importante investire soldi. Solo investendo adeguate quantità di denaro per lo sviluppo delle giuste infrastrutture e di corsi di aggiornamento sarà possibile superare il Digital Divide e mettersi al passo con i tempi. Un esempio è la Tim, che   che ha deciso di investire diversi milioni di euro per portare alfabetizzazione digitale in 107 aree del Paese a scarso utilizzo della rete. Un'altra soluzione sarebbe quella di educare e sensibilizzare la popolazione ad usufruire dei servizi di internet ed incentivarla per enfatizzare i vantaggi che ne concretizzerebbero.</p>
+</b></ul></p>
+<br>
+<h2><b>Come ridurre il Digital Divide</b></h2>
+<p><img src="https://media1.tenor.com/images/a4c210586b9f61638731a81511e85eba/tenor.gif?itemid=5075292" alt="wifi" style="width:300px;height:150px" hspace="30" align="right"> La vera <b>soluzione al problema <i>digital divide</i> in Italia è rappresentata del Wimax</b>. Ovvero quella <b>tecnologia di trasmissione di rete a banda larga senza fili</b>. Un potente sistema di trasmissione Internet che consente <b>l’accesso alla rete oltre i 50 Km di distanza, garantendo una copertura anche nelle zone rurali</b>. E pe realizzare ciò, è importante investire soldi. <b>Solo investendo adeguate quantità di denaro per lo sviluppo delle giuste infrastrutture e di corsi di aggiornamento sarà possibile superare il <i>digital divide</i> e mettersi al passo con i tempi.</b> Un esempio è la <b>Tim</b>, che ha deciso di investire diversi milioni di euro per portare alfabetizzazione digitale in 107 aree del Paese a scarso utilizzo della rete. Un'altra soluzione sarebbe quella di <b>educare e sensibilizzare la popolazione ad usufruire dei servizi di Internet ed incentivarla per enfatizzare i vantaggi che ne concretizzerebbero.</b></p>
+<br>
+<br>
 <p><a href="finanza_digitale.html">Avanti</a></p>
+<p><a href="patrimonio_culturale.html">Indietro</a></p>
 <p><a href="index.html">Torna alla Home</a></p>
 </body>
 </html>
