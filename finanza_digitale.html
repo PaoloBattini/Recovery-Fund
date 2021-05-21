@@ -2,60 +2,123 @@
 <html>
 <head>
 <title>Digitalizzazione del sistema bancario e della finanza</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:2.0, minimum-scale:0.5">
 <style>
 body {font-family: Arial}
 a:hover {
   color: DarkCyan;
   text-decoration: underline
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 </style>
 </head>
-<body style="background-color:LightCyan;">
-<h1>Digitalizzazione del sistema bancario</h2>
-<h2>Cos’è l’innovazione tecnologica?</h2>
-<p>L’innovazione può essere intesa come l’introduzione di nuovi criteri e nuovi sistemi di lavorazione, come lo sviluppo di nuove idee e magari di un’invenzione, come l’esordio di nuovi modi di fare le cose, come l’introduzione di modalità nuove di progettare,  produrre o vendere beni e servizi. Insomma, innovare significa apportare migliorie a un’idea o a un prodotto/servizio già esistente con il principale scopo di ottenere da tali migliorie dei risultati superiori rispetto al passato. Nonostante lo si possa pensare, l’innovazione non deve però essere intesa soltanto come creazione di qualcosa di completamente nuovo, ma anche come capacità di innovare qualcosa che esiste già. Un compito assolutamente necessario perché, alla base dell’avvio di un percorso di innovazione, c’è sempre l’esigenza di adattamento a un ambiente di riferimento che si sta evolvendo per mantenersi al passo con lo stesso e di conseguenza offrire risposte concrete ai bisogni di coloro che ne rappresentano la domanda. Proprio per l’innovazione è d’obbligo, e lo è specialmente per quelle aziende che vogliono tenersi al passo con i tempi e vogliono rimanere competitive sul mercato. Di fronte a questa necessità la reazione delle aziende sarà diversa in base alle loro diverse caratteristiche, in base al loro diverso settore di appartenenza, in base alla loro diversa natura. Ci saranno aziende che opteranno per un’innovazione che possiamo definire “radicale”, ossia quel tipo di innovazione che vede nuovi prodotti/servizi dare vita a una nuova categoria di mercato (un classico esempio è Internet che ha introdotto un canale di comunicazione nuovo e rivoluzionario) ed è quella che si contrappone alla cosiddetta innovazione “incrementale” che invece punta a sviluppare paradigmi preesistenti e al miglioramento di qualcosa che è già presente sul mercato, aumentandone la produttività e la competitività. Solitamente chi punta all’innovazione lo fa o per la sola paura di essere escluso dai giochi, o per via della forte spinta competitiva, o ancora perché capta in essa opportunità ottimali per il miglioramento da ogni punto di vista. Ed è quest’ultimo il caso più  apprezzato, aziende che intraprendono un viaggio nel mondo dell’innovazione per mettersi in gioco, per apportare dei cambiamenti al loro interno che poi avranno dei riflessi anche all’esterno, che sentono il bisogno di doversi reinventare per adattarsi alle novità. Coloro che non rispondono agli stimoli che provengono dall’esterno o che, peggio, fanno finta di non percepirli, sono i primi a fallire. Non si tratta quindi soltanto di realizzazioni concrete, di apportare minime migliorie ai prodotti/servizi offerti sperando così di “illudere” la controparte che tali prodotti/servizi siano realmente innovativi. Piuttosto si tratta di introdurre anche delle procedure che incorporino qualcosa di innovativo che sia funzionale a produrre dei prodotti realmente “nuovi”.</p>
-<h2>L’innovazione tecnologica in un settore particolare: il settore finanziario</h2>
+<body style="background-color:Gainsboro;">
+<body style="background-color:Black;color:White">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<h1><b>Digitalizzazione del sistema bancario</b></h1>
+<br>
+<h2><img src="https://pierluigipiccini.it/wp-content/uploads/2017/09/banche-a-rischio-2016-tutti-i-nomi-lista-aggiornata-cosa-occorre-controllare-per-sapere-se-banca-sicura-e-nuove-regole-bail-in.jpg" alt="finanza digitale 1" style="width:600px;height:400px" hspace="30" align="left"><b>L’innovazione tecnologica in un settore particolare: la finanza</b></h2>
 <p>L’applicazione dell’innovazione tecnologica ai servizi finanziari prende un nome specifico che è quello di FinTech, quel ramo dell’economia che sta sempre più prendendo piede e che deriva dall’unione di due parole: “fin” che sta per finanza + “tech” che sta per tecnologia. In altri termini, potremmo definire questo fenomeno come l’applicazione del digitale al settore finanziario attraverso lo sfruttamento delle nuove tecnologie per l’erogazione di servizi/prodotti che si presentino innovativi ed efficienti agli occhi di una clientela che è sempre più esigente. Si tratta di un fenomeno rivoluzionario che sta coinvolgendo l’intero mercato della finanza, non solo quello delle banche tradizionali, ma anche quello dei servizi assicurativi, e che è stato accelerato negli ultimi anni dall’uso massiccio di smartphone e/o tablet.</p>
 <p>Dopo la crisi del 2008 Le banche iniziarono a realizzare che l’unico modo per rimettersi in riga e per competere con i nuovi attori nell’erogazione dei servizi finanziari sui quali un tempo si può dire avessero il monopolio, era quello di intraprendere un serio percorso di digitalizzazione a 360°. Quindi non solo le startup FinTech, ma anche i grandi attori del sistema bancario hanno preso parte alla trasformazione in atto, spinte dall’evoluzione delle tecnologie e dei modelli di business. Quando si parla di innovazione come rivoluzione nel settore bancario si fa riferimento a tutte quelle innovazioni che, da qualche anno a questa parte, stanno rivoluzionando quasi del tutto il tradizionale modo di “fare banca”, nonché il modo che gli utenti hanno di entrare in contatto e usufruire dei prodotti/servizi dalla stessa banca erogati. Dal momento che il prodotto è da sempre considerato il centro della trasformazione e dal momento che i consumatori si trovano e si troveranno sempre più ad interfacciarsi con ecosistemi digitali e fisici sia grazie a dispositivi tradizionali come PC, tablet e smartphone, sia grazie a una varietà sempre maggiore di oggetti “intelligenti” in grado di recepire informazioni e trasferirle dal mondo virtuale a quello reale, ad oggi per poter parlare di innovazione tecnologica nel settore finanziario, è importante che le stesse banche eroghino servizi/prodotti che risultino innovativi.</p>
 <p>Per quanto possa risultare difficile parlare di innovazione in riferimento ad un settore così regolamentato e controllato come quello bancario, e che inoltre ha da sempre sfruttato i dati principalmente per servizi di tipo intangibile (es. la gestione del rischio), rendere l’esperienza di acquisto ideale per il consumatore moderno, un consumatore che è alla continua ricerca di servizi semplici e di prodotti facili da utilizzare, diventa indispensabile anche per le banche. Molte sono le innovazioni nel mondo finanziario che ormai fanno parte della nostra vita quotidiana e che sono entrate a far parte della nostra routine: ad esempio ai pagamenti che si effettuano direttamente da casa o dall’ufficio senza recarsi in filiale, alle app che si possono installare sul proprio smartphone che ci danno la possibilità di effettuare le operazioni bancarie, anche quelle più complesse, direttamente dal cellulare, oppure si pensi alle carte contactless, all’importanza che sempre più stanno assumendo i social network ecc. O a come oggi il digitale metta a disposizione degli utenti una grande varietà di metodi di pagamento e acquisto tra cui poter scegliere. Ne sono un esempio i pagamenti cd. “in mobilità” tramite smartwatch e wearable device cui sono abbinati mobile wallet e app.</p>
 <p>Insomma, quello finanziario è un settore che punta moltissimo sull’innovazione tecnologica. Le stesse banche in realtà hanno da sempre puntato, e sempre più lo stanno facendo, ad introdurre nell’offerta prodotti e servizi che possiamo definire innovativi.</p>
-<h2>Le innovazioni del mercato finanziario</h2>
-<p>Alcune innovazioni tecnologiche applicate al mondo dei servizi finanziari che spianano la strada ai nuovi player e portano le banche a dover reagire: API di open banking, robo-advisor, payments.
-“Il banking è necessario, le banche no” diceva Bill Gates nel lontano 1990. Una previsione di quasi 30 anni fa che ad oggi appare incredibilmente lucida dopo l’introduzione della nuova direttiva europea che regola i nuovi pagamenti digitali e che segna una svolta nell’ambito del mercato dei pagamenti elettronici, la Payment Services Directive 2 (PSD2) che rappresenta la chiave che apre le porte dell’open banking.</p>
+<br>
+<br>
+<h2><b>Le innovazioni del mercato finanziario</b></h2>
+<p><img src="https://d3npc921eoaj06.cloudfront.net/wp-content/uploads/2021/01/27103455/5141.jpg" alt="finanza digitale 2" style="width:600px;height:400px" hspace="30" align="right">Alcune innovazioni tecnologiche applicate al mondo dei servizi finanziari che spianano la strada ai nuovi player e portano le banche a dover reagire: API di open banking, robo-advisor, payments.
+<i>“Il banking è necessario, le banche no”</i> diceva Bill Gates nel lontano 1990. Una previsione di quasi 30 anni fa che ad oggi appare incredibilmente lucida dopo l’introduzione della nuova direttiva europea che regola i nuovi pagamenti digitali e che segna una svolta nell’ambito del mercato dei pagamenti elettronici, la Payment Services Directive 2 (PSD2) che rappresenta la chiave che apre le porte dell’open banking.</p>
 <p>La direttiva si rivolge a tutti i fornitori di servizi di pagamento, dalle banche, alle assicurazioni, alle Fintech, alle telco, ai TPP (third party providers). In breve, la PSD2 consente ai clienti delle banche, sia privati che aziende, di utilizzare provider di soggetti non bancari per gestire le proprie finanze.  Con la PSD2 soggetti terzi autorizzati possono accedere in sicurezza ai dati della banca e proporre nuovi servizi e prodotti innovativi e user-centered.</p>
 <p>Tecnicamente un’API, interfaccia di programmazione di un’applicazione, è un insieme di comandi formalizzati che consentono alle applicazioni software di comunicare tra loro in modo uniforme e di sfruttare i servizi di base per creare servizi incentrati sul cliente, divenendo pian piano uno dei principali fattori abilitanti di innovazione nel settore bancario e il fulcro dell’open banking e del FinTech. L’open banking è il processo con cui le banche condividono i dati dei clienti con aziende o app di terze parti in modo sicuro e in tempo reale con l’obiettivo primario di erogare servizi innovativi e sempre più personalizzati. Ad esempio, grazie alle API bancarie i clienti possono utilizzare lo smartphone per pagare nei negozi o tenere sotto controllo il conto corrente bancario. Insomma la direttiva ridefinisce il ruolo degli istituti e dei fornitori di strumenti di digital payment: sulla sua spinta le operazioni bancarie e il concetto stesso di banca devono evolvere in una serie di piattaforme capaci di offrire ai clienti esperienze uniche, intuitive, immediate, semplici, il tutto a prescindere dai punti di contatto che saranno utilizzati per effettuare pagamenti e transazioni.Risulta essere un passaggio fondamentale se si penda che le realtà FinTech hanno da sempre puntato su questi concetti, concetti che per loro sono le fondamenta dell’offerta rivolta ai clienti. Le banche che realizzano la portata di tali innovazioni e l’impatto che queste possono avere se non si reagisce in maniera opportuna, si muovono per adattarsi al nuovo contesto. È così che si arriva a enunciare una “bank as a platform, evocando le modalità di erogazione di servizi e la  flessibilità tipica del Cloud, che abilita la fruizione delle applicazioni a prescindere da chi le fornisce.</p>
 <p>Potrebbe trattarsi quindi sia di colossi digitali come Google, Amazon, Facebook e Apple (cd. GAFA), oppure di start-up FinTech, o ancora, potrebbero essere proprio le stesse banche che, approfittando del vantaggio competitivo di cui dispongono nei confronti dei nuovi entranti in termini di capitali, di fiducia che comunque ancora in parte gli utenti ripongono in esse, di conoscenza approfondita che hanno del mercato, di competenze, di capacità di spesa in innovazione e del patrimonio informativo relativo ai clienti possono battersi “quasi” ad armi pari con i competitor. “Quasi” perché i nuovi operatori stanno cambiando radicalmente i servizi bancari, fungendo essi stessi da intermediari per i clienti. Apple, Google, Amazon, Facebook ma anche le nuove start-up del FinTech acquisiscono sempre più quote di mercato, captando le preferenze dei consumatori e trovando soluzioni idonee per rispondere in maniera ottimale alle preferenze di utenti che sono sempre più interconnessi. Questo è reso possibile grazie al potenziale finanziario di cui questi attori godono e anche grazie all’ingente mole di dati sugli utenti di cui sono in possesso grazie sempre alle novità introdotte dalla direttiva di cui sopra. Pur rappresentando un fattore di preoccupazione per gli istituti bancari che temono la disintermediazione con la clientela, dalla collaborazione con i TPP (third party providers) possono nascere vantaggi enormi in termini di maggiore efficienza dei processi e di soddisfazione del cliente per entrambi i player, partendo dal presupposto che la direttiva punta a migliorare tutti i pagamenti digitali e allo sviluppo di un ambiente nuovo e maggiormente orientato e favorevole alla concorrenza e all’innovazione.</p>
 <p>Ad esempio Facebook che, sfruttando la tecnologia API, dà la possibilità agli sviluppatori di aderire ad alcune delle sue funzionalità per lo sviluppo di applicazioni da poter utilizzare direttamente nella piattaforma del social network stesso. Questo processo renderà l’esperienza vissuta su Facebook ancora più completa, più interattiva e più entusiasmante per gli “Amici” iscritti che si trovano ad usufruire di un’offerta ancora più ricca rispetto a prima. Quindi le API rappresentano uno strumento da cui derivano benefici per entrambe le parti coinvolte: gli sviluppatori da un lato, le software house dall’altro.</p>
-<p>Nel settore finanziario questo processo rappresenta una grande sfida per le banche, anche se le stesse sono consapevoli del fatto che tale direttiva rappresenti una grande opportunità per innovare e per dar vita a nuovi prodotti e servizi basati principalmente sulla trasparenza e sulla sicurezza del sistema. Per questo è fondamentale che le banche investano nell’ideazione di modalità sempre più innovative per l’erogazione di prodotti e servizi.</p>
+<p><img src="https://www.wealthwisesolution.com/image/finance.gif" alt="finanza digitale 3" style="width:600px;height:500px" hspace="30" align="left">Nel settore finanziario questo processo rappresenta una grande sfida per le banche, anche se le stesse sono consapevoli del fatto che tale direttiva rappresenti una grande opportunità per innovare e per dar vita a nuovi prodotti e servizi basati principalmente sulla trasparenza e sulla sicurezza del sistema. Per questo è fondamentale che le banche investano nell’ideazione di modalità sempre più innovative per l’erogazione di prodotti e servizi.</p>
 <p>Più che altro tale necessità si è fatta più volte sentire per voce dei clienti stessi: il 37% dei consumatori europei si è detto disposto a cambiare banca se la propria non è in grado di offrire servizi tecnologici aggiornati. Fino ad oggi diverse banche hanno esitato ad adottare le nuove tecnologie, ma con l’arrivo del FinTech e l’approvazione della PSD2, sono state costrette a cambiare, o almeno tentare, per sopravvivere. L’open banking è infatti destinato a trasformare profondamente le banche tradizionali perché la capacità di servire direttamente i clienti e dare loroun valore aggiunto non sarà più una loro prerogativa, ma sarà condivisa con le società del FinTech, oltre che con le aziende di telecomunicazioni. Per molti istituti finanziari ne deriverà un vantaggio competitivo, in quanto permetterà loro di entrare nel mercato senza la pesante compliance e le rigide infrastrutture che le banche sono sempre state portate a mantenere. Ma per gli istituti bancari tradizionali Sarà uno svantaggio per quelle che insistono nel mantenere il proprio status-quo rifiutandosi di innovare, cambiare, crescere e migliorare. Ma le altre, quelle che hanno intrapreso o stanno intraprendendo un cammino di open innovation, potrebbero ricavarne nuove opportunità e non solo un rischio di disintermediazione (derivata dalla comparsa e dallo sviluppo di forme di risparmio alternative, come le azioni, alle tradizionali passività bancarie e al conseguente drenaggio di fondi dal sistema creditizio) e solo prendendo coscienza di ciò potrebbero giocare un ruolo primario nel mercato, investendo in nuove soluzioni di business strettamente legate all’innovazione tecnologica. Con l’entrata in vigore della PSD2 ha avuto inizio quella che può essere definita la digital transformation del mondo bancario e che concetti come Open API e Open Banking, al principio ritenuti temi puramente tecnologici, vengono oramai considerati degli acceleratori di business strategici che le banche non possono permettersi di ignorare.</p>
-<h2>Digital transformation nelle banche</h2>
+<br>
+<br>
+<h2><b>Digital transformation nelle banche</b></h2>
 <p>L’innovazione digitale non accenna a fermarsi, ha stravolto i metodi e le strategie di lavoro di molte aziende e startup, ma soprattutto ha portato ad un brusco cambiamento del settore finanziario e nel mondo del banking.</p>
 <p>La digital transformation nelle banche ha portato ad un’evoluzione dei processi bancari tradizionali. Inoltre sono state create delle piattaforme di digital banking per usufruire dei servizi online, fino ad arrivare alla possibilità di effettuare pagamenti digitali innovativi. Le banche hanno cominciato a valutare e sperimentare l’uso della tecnologia dopo la crisi finanziaria del 2008. La perdita di fiducia nei confronti del sistema bancario tradizionale e la digitalizzazione di svariati settori, hanno portato le banche a dover reagire.</p>
 <p>La digital transformation nelle banche (detta anche banking transformation) è una diretta conseguenza dell’innovazione tecnologica che stiamo vivendo da svariati anni. La diffusione sempre maggiore dell’uso di smartphone, tablet, applicazioni e servizi online ha reso necessario un cambiamento. Il mercato dei servizi bancari e finanziari, come anche quello dei servizi assicurativi, si è dovuto adattare applicando una digitalizzazione a 360° attraverso l’utilizzo delle nuove tecnologie.</p>
-<img src="https://www.experis.it/documents/23601/53801/Digital+banking/6384e954-a1c0-4c49-a539-c1a1bc8098bb?t=1515148700715" alt="Digital banking" style="width:500px;height:300px;">
-<h2>Personalizzazione della customer experience</h2>
-<p>Il cliente tipo odierno è alla continua ricerca di prodotti e servizi semplici, intuitivi e facili da utilizzare. Il consumatore si aspetta un’esperienza personalizzata, fatta apposta per lui, per questo motivo è cruciale curare la customer experience. La digital transformation nelle banche permette di utilizzare i dati relativi al cliente e sfruttarli come informazioni utili sia per la banca che per il cliente stesso. Personalizzare l’offerta per un cliente aiuta la banca a costruire delle relazioni solide con i consumatori, che sono fondamentali per creare retention.</p>
+<br>
+<br>
+<h2><b>Personalizzazione della customer experience</b></h2>
+<p><img src="https://www.postfinance.ch/content/dam/pfch/image/card/efinance.gif" alt="Digital banking" style="width:500px;height:450px" hspace="30" align="right">Il cliente tipo odierno è alla continua ricerca di prodotti e servizi semplici, intuitivi e facili da utilizzare. Il consumatore si aspetta un’esperienza personalizzata, fatta apposta per lui, per questo motivo è cruciale curare la customer experience. La digital transformation nelle banche permette di utilizzare i dati relativi al cliente e sfruttarli come informazioni utili sia per la banca che per il cliente stesso. Personalizzare l’offerta per un cliente aiuta la banca a costruire delle relazioni solide con i consumatori, che sono fondamentali per creare retention.</p>
 <p>Oltre alla personalizzazione della customer experience, la banca deve porre attenzione all’uso delle piattaforme digitali.</p>
-<h2>Digital banking</h2>
+<br>
+<br>
+<h2><b>Digital banking</b></h2>
 <p>Il digital banking offre la possibilità di svolgere ogni giorno, 24 ore su 24, delle operazioni bancarie comodamente da casa. Possiamo effettuare versamenti, bonifici o pagamenti di bollette/bollettini e non solo. Grazie alla trasformazione digitale dei processi bancari, il digital banking mette a disposizione anche servizi di consulenza finanziaria online tramite i robo-advisor. Oramai si decide di andare in banca solo se strettamente necessario, proprio perché molte operazioni si possono svolgere tramite un’app o un sito web.</p>
 <p>Il digital banking è possibile grazie all’utilizzo dell’AI (Artificial Intelligence), del Machine Learning, del Cloud Computing e dei Big Data. Queste nuove tecnologie permettono di analizzare le informazioni sui clienti, massimizzare l’offerta da proporre e fornire assistenza in maniera pratica e veloce H24 (robo-advisor). La digitalizzazione dei processi bancari dà così modo di fornire servizi efficienti e veloci alla clientela di riferimento.</p>
-<h2>Le API di open banking e la PSD2</h2>
+<br>
+<br>
+<h2><b>Le API di open banking e la PSD2</b></h2>
 <p>Con l’entrata in vigore della PSD2 (Payment Services Directive 2), cioè la direttiva europea che regola i nuovi pagamenti digitali, si ha una svolta nel settore dei pagamenti elettronici. Sostanzialmente le banche devono aprire le loro API (Application Program Interface) a startup FinTech, alle Telco e ai TPP (Third Party Providers).</p>
 <p>Con la PSD2 le banche devono fare open banking, permettendo ai TPP di accedere in sicurezza ai conti dei clienti e alle informazioni sui pagamenti, al fine di poter proporre nuovi prodotti e servizi incentrati sul cliente. In pratica l’utente ha modo di compiere operazioni di pagamento o accedere al proprio rendiconto bancario tramite software creati da terze parti autorizzate. Grazie alle API si possono anche usare gli smartphone per pagare nei negozi, una nuova frontiera dei pagamenti digitali.</p>
-<h2>Fintegration: la nuova alleanza tra banche e FinTech</h2>
+<br>
+<br>
+<h2><b>Fintegration: la nuova alleanza tra banche e FinTech</b></h2>
 <p>Banche e startup FinTech sono destinate a collaborare, la Fintegration è una realtà concreta e la direttiva europea PSD2 ne è la conferma, ma non solo. C’è una minaccia che crea sempre più paure da parte del mondo bancario: i colossi digitali.</p>
 <p>BigTech come Amazon, Google e Facebook si stanno avvicinando al settore finanziario e vogliono farne parte. Aziende come queste hanno accesso a una mole di dati gigantesca di utenti già clienti di banche tradizionali. È scontato dire che questi dati verranno usati per proporre offerte personalizzate e su misura del cliente, rischiando di perderlo definitivamente. Proprio per questo motivo la collaborazione con le startup FinTech è indispensabile: una collaborazione stretta può frenare la corsa delle BigTech e magari creare qualcosa di innovativo.</p>
-<h2>Digital transformation e digital payment</h2>
+<br>
+<br>
+<h2><img src="https://discovertemplate.com/wp-content/uploads/2020/06/DT_G09_Finance-Animated-GIF-Icon-Pack-.gif" alt="servizi digitali finanziari" style="width:525px;height:475px" hspace="30" align="left"><b>Digital transformation e digital payment</b></h2>
 <p>La nuova direttiva PSD2 ha introdotto dei nuovi pagamenti digitali fatti su misura per i mobile devices. Viviamo in un’epoca in cui siamo abituati ad avere tutto a portata di smartphone. Quasi tutti svolgiamo le principali operazioni giornaliere tramite un mobile device, oramai diventato indispensabile nella vita di tutti i giorni.
 La digital transformation nei pagamenti ha portato alla nascita dei così detti Mobile Payments, cioè “pagamenti su dispositivi portatili”. Invece di usare i contanti o la carta di credito, un cliente può usare direttamente lo smartphone per effettuare un pagamento.</p>
 <p>Il digital payment porta il mondo servizi bancari fuori dalle banche, allargandone così le dinamiche di utilizzo. Lo sviluppo di pagamenti digitali innovativi, con l’ausilio delle nuove tecnologie, permette di migliorare la fluidità delle transazioni e promuovere l’affidabilità.</p>
 <p>Effettuare pagamenti tramite sistemi di ePayment, Mobile Payment o tramite carte contactless, quindi, Contactless Payment, è diventato all’ordine del giorno. Il settore bancario necessita di adeguarsi alla trasformazione digitale dei pagamenti, perché le persone vorranno effettuare transazioni finanziare alla stessa maniera. Non si tratta, quindi, solo di un cambiamento degli acquisti online, ma della possibilità di creare una moneta virtuale globale. Riuscire ad effettuare transazioni in tempo reale senza dover avere un conto corrente o un rapporto bancario, è diventato possibile.</p>
 <p>Un esempio di nuovo banking è Paypal, il wallet digitale più famoso al mondo, che ha trasformato la concezione del trasferimento di denaro. La sua facilità d’utilizzo e la sicurezza dei pagamenti online che offre, hanno reso famosa questa azienda facendone diffondere l’uso dei servizi ad una velocità strabiliante. Un’altra piattaforma che si sta facendo strada nel settore dei pagamenti digitali è Apple Pay.</p>
 <p>Gli istituti bancari non scompariranno, ma dovranno adattarsi al cambiamento e abbracciare la digital transformation, perché è questo che richiede il cliente tipo.</p>
-<h2>Bitcoin: cos'è e a cosa serve</h2>
-<p> Il Bitcoin è la criptovaluta diventata popolare a livello mondiale, apparsa per la prima volta nel 2009 da uno sviluppatore sotto lo pseudonimo di Satoshi Nakamoto.
+<br>
+<br>
+<h2><img src="https://cliply.co/wp-content/uploads/2021/02/372102230_BITCOIN_400px.gif" alt="Bitcoin" style="width:200px;height:200px" hspace="30" align="right"><b>Bitcoin: cos'è e a cosa serve</b></h2>
+<p>Il Bitcoin è la criptovaluta diventata popolare a livello mondiale, apparsa per la prima volta nel 2009 da uno sviluppatore sotto lo pseudonimo di Satoshi Nakamoto.
 I bitcoin sono monete completamente virtuali progettate per essere autonome sul fronte del loro valore, senza che le banche centrali lo influenzino, possiedono valore e vengono scambiati tra le parti. Si possono usare per acquistare beni e servizi online oppure puoi metterli via e sperare che il loro valore aumenti nel corso degli anni.I Bitcoin vengono scambiati da un portafoglio personale a un altro. Un portafoglio (anche detto wallet) è un piccolo database personale archiviabile su computer, smartphone, tablet o sul cloud.</p>
-<img src="https://www.toptrade.it/files/2020/03/bitcoin-696x522.jpg" alt="Bitcoin" style="width:600px;height:400px;">
-<p align="center"><a href="index.html">Torna alla Home</a></p>
+<br>
+<br>
+<p><a href="digital_divide.html">Indietro</a></p>
+<p><a href="index.html">Torna alla Home</a></p>
 </body>
 </html>
